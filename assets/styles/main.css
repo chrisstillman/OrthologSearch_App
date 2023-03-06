@@ -1,26 +1,30 @@
 body {
-  background-color: rgb(149, 164, 192);
+  background-color: #333;
   background-size: 50px;
   background-position: relative;
+  font-family: 'Helvetica Neue', sans-serif;
+  color : #7499c1
+  
 }
 
 h1 {
-  color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  line-height: 4;
+  color: #007bff;
+  font-family: 'Helvetica Neue', sans-serif;
+  text-align: left;
 }
 
-h2 {}
+
+
 
 .button {
   position: relative;
   padding: 8px 16px;
-  background: rgb(74, 84, 104);
+  background: #007bff;
   border: none;
   outline: none;
   border-radius: 2px;
   cursor: pointer;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 .button:active {
